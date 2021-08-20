@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WZW",
+    "WXW",
+    "WYW"
+  ],
+  "key": {
+    "W": {
+      "item": "arkhesys:silver_ingot"
+    },
+    "X": {
+      "item": "arkhesys:infusion_base"
+    },
+    "Y": {
+      "item": "arkhesys:astraal_bucket"
+    },
+    "Z": {
+      "item": "arkhesys:chaos_gem"
+    }
+  },
+  "result": {
+    "item": "arkhesys:infuser"
+  }
+}

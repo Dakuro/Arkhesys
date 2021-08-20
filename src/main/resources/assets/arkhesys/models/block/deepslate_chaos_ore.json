@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arkhesys:block/deepslate_chaos_ore"
+  }
+}

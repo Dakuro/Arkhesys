@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "arkhesys:chaos_ores"
+  },
+  "result": "arkhesys:chaos_shard",
+  "experience": 2.0,
+  "cookingtime": 200
+}

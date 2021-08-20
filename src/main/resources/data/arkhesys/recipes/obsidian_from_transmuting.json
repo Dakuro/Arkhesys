@@ -1,0 +1,15 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+    "item": "minecraft:obsidian",
+    "count": 3
+  },
+  "experience": 3.0,
+  "mutationTime": 200,
+  "fluidCost": 2000
+}

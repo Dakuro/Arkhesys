@@ -1,0 +1,20 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_horse_armor"
+  },
+  "experience": 3.0,
+  "mutationTime": 160,
+  "fluidCost": 800
+}

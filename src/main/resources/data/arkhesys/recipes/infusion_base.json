@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "arkhesys:astraal_bucket"
+    }
+  ],
+  "result": {
+    "item": "arkhesys:infusion_base"
+  }
+}

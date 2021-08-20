@@ -1,0 +1,17 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "result": {
+    "item": "arkhesys:infusion_base"
+  },
+  "experience": 4.0,
+  "mutationTime": 120,
+  "fluidCost": 250
+}

@@ -1,0 +1,18 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:grass_block",
+    "count": 2
+  },
+  "experience": 2.0,
+  "mutationTime": 90,
+  "fluidCost": 400
+}

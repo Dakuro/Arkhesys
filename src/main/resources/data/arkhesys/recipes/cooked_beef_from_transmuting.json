@@ -1,0 +1,14 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_beef"
+  },
+  "experience": 2.0,
+  "mutationTime": 80,
+  "fluidCost": 400
+}

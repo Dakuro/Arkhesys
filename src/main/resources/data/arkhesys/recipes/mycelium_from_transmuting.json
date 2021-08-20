@@ -1,0 +1,21 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mycelium",
+    "count": 2
+  },
+  "experience": 2.0,
+  "mutationTime": 90,
+  "fluidCost": 400
+}

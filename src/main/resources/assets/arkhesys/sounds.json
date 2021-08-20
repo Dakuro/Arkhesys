@@ -1,0 +1,11 @@
+{
+  "record.music_disc.rtc": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "arkhesys:music/return_to_chaos",
+        "stream": true
+      }
+    ]
+  }
+}

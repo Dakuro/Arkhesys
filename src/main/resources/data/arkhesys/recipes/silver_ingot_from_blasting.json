@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "arkhesys:silver_ores"
+  },
+  "result": "arkhesys:silver_ingot",
+  "experience": 1.5,
+  "cookingtime": 100
+}

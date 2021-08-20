@@ -1,0 +1,20 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:saddle"
+  },
+  "experience": 3.0,
+  "mutationTime": 110,
+  "fluidCost": 500
+}

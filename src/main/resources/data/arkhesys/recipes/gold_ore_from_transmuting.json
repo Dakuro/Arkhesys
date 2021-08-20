@@ -1,0 +1,17 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ore"
+  },
+  "experience": 2.0,
+  "mutationTime": 150,
+  "fluidCost": 750
+}

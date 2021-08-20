@@ -1,0 +1,17 @@
+{
+  "type": "arkhesys:transmuting",
+  "ingredients": [
+    {
+      "item": "arkhesys:deepslate_chaos_ore"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "item": "arkhesys:music_disc_rtc"
+  },
+  "experience": 3.0,
+  "mutationTime": 150,
+  "fluidCost": 1500
+}

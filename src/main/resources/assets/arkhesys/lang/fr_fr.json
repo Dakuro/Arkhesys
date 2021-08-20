@@ -1,0 +1,28 @@
+{
+  "itemGroup.arkhesys_tab": "Arkhesys",
+
+  "item.arkhesys.raw_silver": "Argent Brut",
+  "item.arkhesys.silver_ingot": "Lingot d'Argent",
+  "item.arkhesys.silver_sword": "Épée en Argent",
+  "item.arkhesys.silver_pickaxe": "Pioche en Argent",
+  "item.arkhesys.silver_axe": "Hache en Argent",
+  "item.arkhesys.silver_shovel": "Pelle en Argent",
+  "item.arkhesys.silver_hoe": "Houe en Argent",
+  "item.arkhesys.silver_helmet": "Casque en Argent",
+  "item.arkhesys.silver_chestplate": "Plastron en Argent",
+  "item.arkhesys.silver_leggings": "Jambières en Argent",
+  "item.arkhesys.silver_boots": "Bottes en Argent",
+  "item.arkhesys.chaos_shard": "Éclat du Chaos",
+  "item.arkhesys.chaos_gem": "Gemme du Chaos",
+  "item.arkhesys.music_disc_rtc": "Disque",
+  "item.arkhesys.music_disc_rtc.desc": "Damien Swan - Return to Chaos",
+  "item.arkhesys.empty_bottle": "Bouteille Vide",
+
+  "block.arkhesys.silver_ore": "Minerai d'Argent",
+  "block.arkhesys.deepslate_silver_ore": "Minerai d'Argent des Abîmes",
+  "block.arkhesys.raw_silver_block": "Bloc d'Argent Brut",
+  "block.arkhesys.silver_block": "Bloc d'Argent",
+  "block.arkhesys.chaos_block": "Bloc du Chaos",
+  "block.arkhesys.primordial_glass": "Verre Primordial",
+  "block.arkhesys.infusion_base": "Base d'Infusion"
+}

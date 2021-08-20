@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "arkhesys:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "arkhesys:silver_axe"
+  }
+}

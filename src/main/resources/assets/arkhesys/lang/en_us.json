@@ -1,0 +1,28 @@
+{
+  "itemGroup.arkhesys_tab": "Arkhesys",
+
+  "item.arkhesys.raw_silver": "Raw Silver",
+  "item.arkhesys.silver_ingot": "Silver Ingot",
+  "item.arkhesys.silver_sword": "Silver Sword",
+  "item.arkhesys.silver_pickaxe": "Silver Pickaxe",
+  "item.arkhesys.silver_axe": "Silver Axe",
+  "item.arkhesys.silver_shovel": "Silver Shovel",
+  "item.arkhesys.silver_hoe": "Silver Hoe",
+  "item.arkhesys.silver_helmet": "Silver Helmet",
+  "item.arkhesys.silver_chestplate": "Silver Chestplate",
+  "item.arkhesys.silver_leggings": "Silver Leggings",
+  "item.arkhesys.silver_boots": "Silver Boots",
+  "item.arkhesys.chaos_shard": "Chaos Shard",
+  "item.arkhesys.chaos_gem": "Chaos Gem",
+  "item.arkhesys.music_disc_rtc": "Music Disc",
+  "item.arkhesys.music_disc_rtc.desc": "Damien Swan - Return to Chaos",
+  "item.arkhesys.empty_bottle": "Empty Bottle",
+
+  "block.arkhesys.silver_ore": "Silver Ore",
+  "block.arkhesys.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.arkhesys.raw_silver_block": "Block of Raw Silver",
+  "block.arkhesys.silver_block": "Block of Silver",
+  "block.arkhesys.chaos_block": "Block of Chaos",
+  "block.arkhesys.primordial_glass": "Primordial Glass",
+  "block.arkhesys.infusion_base": "Infusion Base"
+}

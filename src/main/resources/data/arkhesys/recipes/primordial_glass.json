@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SGS",
+    " S "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:tinted_glass"
+    },
+    "S": {
+      "item": "arkhesys:chaos_shard"
+    }
+  },
+  "result": {
+    "item": "arkhesys:primordial_glass",
+    "count": 2
+  }
+}

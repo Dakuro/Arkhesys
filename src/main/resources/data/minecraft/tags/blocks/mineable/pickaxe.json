@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "arkhesys:silver_ore",
+    "arkhesys:deepslate_silver_ore",
+    "arkhesys:raw_silver_block",
+    "arkhesys:silver_block",
+    "arkhesys:chaos_block",
+    "arkhesys:infusion_base"
+  ]
+}

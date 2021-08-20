@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "arkhesys:silver_helmet",
+    "arkhesys:silver_chestplate",
+    "arkhesys:silver_leggings",
+    "arkhesys:silver_boots"
+  ]
+}

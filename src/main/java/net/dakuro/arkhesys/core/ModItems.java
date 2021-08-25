@@ -1,6 +1,7 @@
 package net.dakuro.arkhesys.core;
 
 import net.dakuro.arkhesys.ARKHESYS;
+import net.dakuro.arkhesys.world.item.PotionArmorItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -43,19 +44,19 @@ public class ModItems {
     );
 
     public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.HEAD, new Item.Properties())
+            () -> new PotionArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.HEAD, new Item.Properties())
     );
 
     public static final RegistryObject<Item> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.CHEST, new Item.Properties())
+            () -> new PotionArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.CHEST, new Item.Properties())
     );
 
     public static final RegistryObject<Item> SILVER_LEGGINGS = ITEMS.register("silver_leggings",
-            () -> new ArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.LEGS, new Item.Properties())
+            () -> new PotionArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.LEGS, new Item.Properties())
     );
 
     public static final RegistryObject<Item> SILVER_BOOTS = ITEMS.register("silver_boots",
-            () -> new ArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.FEET, new Item.Properties())
+            () -> new PotionArmorItem(ModArmorMaterials.SILVER, EquipmentSlot.FEET, new Item.Properties())
     );
 
     public static final RegistryObject<Item> CHAOS_SHARD = ITEMS.register("chaos_shard",

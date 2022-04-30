@@ -11,7 +11,6 @@ import net.minecraft.item.Rarity;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
-import javax.annotation.Nullable;
 import java.util.function.Supplier;
 
 public class ModBlocks
@@ -45,11 +44,11 @@ public class ModBlocks
     public static final RegistryObject<Block> INFUSION_BASE = createBlock("infusion_base",
             () -> new Block(AbstractBlock.Properties.of(Material.STONE).requiresCorrectToolForDrops()
                     .harvestTool(ToolType.PICKAXE).harvestLevel(1).strength(6.0F, 6.0F).sound(SoundType.ANCIENT_DEBRIS)
-                    .lightLevel((state) -> {return 6;})), new Item.Properties().rarity(Rarity.RARE));
+                    .lightLevel((state) -> 6)), new Item.Properties().rarity(Rarity.RARE));
 
     public static final RegistryObject<Block> INFUSER = createBlock("infuser",
             () -> new InfuserBlock(AbstractBlock.Properties.of(Material.HEAVY_METAL).harvestTool(ToolType.PICKAXE).harvestLevel(1)
-                    .strength(20.0F, 20.0F).sound(SoundType.ANCIENT_DEBRIS).lightLevel((state) -> {return 8;})),
+                    .strength(20.0F, 20.0F).sound(SoundType.ANCIENT_DEBRIS).lightLevel((state) -> 8)),
             new Item.Properties().rarity(Rarity.RARE));
 
     public static void init() { }

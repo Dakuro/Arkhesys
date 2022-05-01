@@ -15,6 +15,6 @@ public class ModItems
     public static final Rarity CHAOTIC = Rarity.create("chaotic", ChatFormatting.DARK_RED);
 
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
-            () -> new Item(new Item.Properties())
+            () -> new Item(new Item.Properties().tab(ModTab.ARKHESYS_TAB))
     );
 }

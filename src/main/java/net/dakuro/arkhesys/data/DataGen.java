@@ -26,6 +26,7 @@ public class DataGen
             gen.addProvider(new LangGenEnUs(gen));
             gen.addProvider(new LangGenFrFr(gen));
             gen.addProvider(new ItemModelGen(gen, event.getExistingFileHelper()));
+            gen.addProvider(new BlockStateGen(gen, event.getExistingFileHelper()));
         }
     }
 }

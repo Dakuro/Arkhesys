@@ -1,2 +1,6 @@
-958b96e4a8b40c50ca329813b8e4132666688384 assets/arkhesys/lang/en_us.json
-1195991ed486909d47499bd142fcca9df9dd6818 assets/arkhesys/lang/fr_fr.json
+bc27248ad0ad5d3a2d5066ff229cb77970d26120 assets/arkhesys/blockstates/silver_ore.json
+4bab636c7e0572a452935bf5858634112d399e99 assets/arkhesys/lang/en_us.json
+cc70eacfbdb22012cb2b75b164c26e59aac034bb assets/arkhesys/lang/fr_fr.json
+81abd96d410972592c0ce482c831d9bbf402f3c0 assets/arkhesys/models/block/silver_ore.json
+730fbcdab84844b17a610fbc15aa431a759212b8 assets/arkhesys/models/item/raw_silver.json
+cf036776b8fedceee3139ec3d146868ceb3c0be7 assets/arkhesys/models/item/silver_ore.json

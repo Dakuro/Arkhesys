@@ -1,3 +1,5 @@
 {
-  "item.arkhesys.raw_silver": "Raw Silver"
+  "block.arkhesys.silver_ore": "Silver Ore",
+  "item.arkhesys.raw_silver": "Raw Silver",
+  "itemGroup.arkhesys_tab": "Arkhesys"
 }

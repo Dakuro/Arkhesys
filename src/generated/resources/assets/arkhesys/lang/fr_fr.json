@@ -1,3 +1,5 @@
 {
-  "item.arkhesys.raw_silver": "Argent Brut"
+  "block.arkhesys.silver_ore": "Minerai d'Argent",
+  "item.arkhesys.raw_silver": "Argent Brut",
+  "itemGroup.arkhesys_tab": "Arkhesys"
 }

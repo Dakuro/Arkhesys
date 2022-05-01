@@ -4,3 +4,4 @@ cc70eacfbdb22012cb2b75b164c26e59aac034bb assets/arkhesys/lang/fr_fr.json
 81abd96d410972592c0ce482c831d9bbf402f3c0 assets/arkhesys/models/block/silver_ore.json
 730fbcdab84844b17a610fbc15aa431a759212b8 assets/arkhesys/models/item/raw_silver.json
 cf036776b8fedceee3139ec3d146868ceb3c0be7 assets/arkhesys/models/item/silver_ore.json
+a3a46a89995216eabbfac26fb0ec5c1a5c455aa8 data/arkhesys/loot_tables/blocks/silver_ore.json

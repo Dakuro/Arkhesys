@@ -2,6 +2,7 @@ package net.dakuro.arkhesys.data;
 
 import net.dakuro.arkhesys.ARKHESYS;
 import net.minecraft.data.DataGenerator;
+import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
@@ -13,13 +14,14 @@ public class DataGen
     public static void dataGen(final GatherDataEvent event)
     {
         DataGenerator gen = event.getGenerator();
+        ExistingFileHelper exFileHelp = event.getExistingFileHelper();
 
         if(event.includeClient())
         {
             gen.addProvider(new LangGenEnUs(gen));
             gen.addProvider(new LangGenFrFr(gen));
-            gen.addProvider(new ItemModelGen(gen, event.getExistingFileHelper()));
-            gen.addProvider(new BlockStateGen(gen, event.getExistingFileHelper()));
+            gen.addProvider(new ItemModelGen(gen, exFileHelp));
+            gen.addProvider(new BlockStateGen(gen, exFileHelp));
         }
 
         if(event.includeServer())

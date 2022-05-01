@@ -1,6 +1,8 @@
 package net.dakuro.arkhesys;
 
 import com.mojang.logging.LogUtils;
+import net.dakuro.arkhesys.world.item.ModItems;
+import net.dakuro.arkhesys.world.level.block.ModBlocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -21,11 +23,13 @@ public class ARKHESYS
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::commonSetup);
         eventBus.addListener(this::clientSetup);
+        ModItems.ITEMS.register(eventBus);
+        ModBlocks.BLOCKS.register(eventBus);
     }
 
     private void commonSetup(FMLCommonSetupEvent event)
     {
-        LOGGER.info("Hello from Arkhesys Commun Setup");
+        LOGGER.info("Hello from Arkhesys Common Setup");
     }
 
     private void clientSetup(FMLClientSetupEvent event)

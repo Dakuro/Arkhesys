@@ -34,8 +34,7 @@ import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class ModLootTableProvider extends LootTableProvider
-{
+public abstract class ModLootTableProvider extends LootTableProvider {
 
     private static final Logger LOGGER = LogManager.getLogger();
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
@@ -43,16 +42,14 @@ public abstract class ModLootTableProvider extends LootTableProvider
     protected final Map<Block, LootTable.Builder> lootTables = new HashMap<>();
     private final DataGenerator generator;
 
-    public ModLootTableProvider(DataGenerator dataGeneratorIn)
-    {
+    public ModLootTableProvider(DataGenerator dataGeneratorIn) {
         super(dataGeneratorIn);
         this.generator = dataGeneratorIn;
     }
 
     protected abstract void addTables();
 
-    protected LootTable.Builder createStandardTable(String name, Block block, BlockEntityType<?> type)
-    {
+    protected LootTable.Builder createStandardTable(String name, Block block, BlockEntityType<?> type) {
         LootPool.Builder builder = LootPool.lootPool()
                 .name(name)
                 .setRolls(ConstantValue.exactly(1))
@@ -68,8 +65,7 @@ public abstract class ModLootTableProvider extends LootTableProvider
         return LootTable.lootTable().withPool(builder);
     }
 
-    protected LootTable.Builder createSimpleTable(String name, Block block)
-    {
+    protected LootTable.Builder createSimpleTable(String name, Block block) {
         LootPool.Builder builder = LootPool.lootPool()
                 .name(name)
                 .setRolls(ConstantValue.exactly(1))
@@ -77,8 +73,7 @@ public abstract class ModLootTableProvider extends LootTableProvider
         return LootTable.lootTable().withPool(builder);
     }
 
-    protected LootTable.Builder createSilkTouchTable(String name, Block block, Item lootItem, float min, float max)
-    {
+    protected LootTable.Builder createSilkTouchTable(String name, Block block, Item lootItem, float min, float max) {
         LootPool.Builder builder = LootPool.lootPool()
                 .name(name)
                 .setRolls(ConstantValue.exactly(1))
@@ -95,8 +90,7 @@ public abstract class ModLootTableProvider extends LootTableProvider
         return LootTable.lootTable().withPool(builder);
     }
 
-    protected LootTable.Builder createOreTable(String name, Block block, Item lootItem)
-    {
+    protected LootTable.Builder createOreTable(String name, Block block, Item lootItem) {
         LootPool.Builder builder = LootPool.lootPool()
                 .name(name)
                 .setRolls(ConstantValue.exactly(1))
@@ -113,37 +107,30 @@ public abstract class ModLootTableProvider extends LootTableProvider
     }
 
     @Override
-    public void run(HashCache cache)
-    {
+    public void run(HashCache cache) {
         addTables();
 
         Map<ResourceLocation, LootTable> tables = new HashMap<>();
-        for (Map.Entry<Block, LootTable.Builder> entry : lootTables.entrySet())
-        {
+        for (Map.Entry<Block, LootTable.Builder> entry : lootTables.entrySet()) {
             tables.put(entry.getKey().getLootTable(), entry.getValue().setParamSet(LootContextParamSets.BLOCK).build());
         }
         writeTables(cache, tables);
     }
 
-    private void writeTables(HashCache cache, Map<ResourceLocation, LootTable> tables)
-    {
+    private void writeTables(HashCache cache, Map<ResourceLocation, LootTable> tables) {
         Path outputFolder = this.generator.getOutputFolder();
         tables.forEach((key, lootTable) -> {
             Path path = outputFolder.resolve("data/" + key.getNamespace() + "/loot_tables/" + key.getPath() + ".json");
-            try
-            {
+            try {
                 DataProvider.save(GSON, cache, LootTables.serialize(lootTable), path);
-            }
-            catch (IOException e)
-            {
+            } catch (IOException e) {
                 LOGGER.error("Couldn't write loot table {}", path, e);
             }
         });
     }
 
     @Override
-    public String getName()
-    {
+    public String getName() {
         return "Arkhesys LootTables";
     }
 }

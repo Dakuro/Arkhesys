@@ -6,16 +6,13 @@ import net.dakuro.arkhesys.world.level.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
 
-public class LangGenFrFr extends LanguageProvider
-{
-    public LangGenFrFr(DataGenerator gen)
-    {
+public class LangGenFrFr extends LanguageProvider {
+    public LangGenFrFr(DataGenerator gen) {
         super(gen, ARKHESYS.MODID, "fr_fr");
     }
 
     @Override
-    protected void addTranslations()
-    {
+    protected void addTranslations() {
         add("itemGroup.arkhesys_tab", "Arkhesys");
 
         add(ModItems.RAW_SILVER.get(), "Argent Brut");

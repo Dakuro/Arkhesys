@@ -11,15 +11,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 @Mod(ARKHESYS.MODID)
-public class ARKHESYS
-{
+public class ARKHESYS {
     public static final String MODID = "arkhesys";
 
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ARKHESYS()
-    {
+    public ARKHESYS() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::commonSetup);
         eventBus.addListener(this::clientSetup);
@@ -27,13 +25,11 @@ public class ARKHESYS
         ModBlocks.BLOCKS.register(eventBus);
     }
 
-    private void commonSetup(FMLCommonSetupEvent event)
-    {
+    private void commonSetup(FMLCommonSetupEvent event) {
         LOGGER.info("Hello from Arkhesys Common Setup");
     }
 
-    private void clientSetup(FMLClientSetupEvent event)
-    {
+    private void clientSetup(FMLClientSetupEvent event) {
         LOGGER.info("Hello from Arkhesys Client Setup");
     }
 

@@ -15,8 +15,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class ModBlocks
-{
+public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ARKHESYS.MODID);
 
     public static final RegistryObject<Block> SILVER_ORE = createBlock("silver_ore",
@@ -25,15 +24,13 @@ public class ModBlocks
                     .requiresCorrectToolForDrops())
     );
 
-    public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier, Item.Properties properties)
-    {
+    public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier, Item.Properties properties) {
         RegistryObject<Block> block = BLOCKS.register(name, supplier);
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), properties));
         return block;
     }
 
-    public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier)
-    {
+    public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier) {
         RegistryObject<Block> block = BLOCKS.register(name, supplier);
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
         return block;

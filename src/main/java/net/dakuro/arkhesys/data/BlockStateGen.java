@@ -9,21 +9,17 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 
 import java.util.Objects;
 
-public class BlockStateGen extends BlockStateProvider
-{
-    public BlockStateGen(DataGenerator gen, ExistingFileHelper exFileHelper)
-    {
+public class BlockStateGen extends BlockStateProvider {
+    public BlockStateGen(DataGenerator gen, ExistingFileHelper exFileHelper) {
         super(gen, ARKHESYS.MODID, exFileHelper);
     }
 
     @Override
-    protected void registerStatesAndModels()
-    {
+    protected void registerStatesAndModels() {
         createSimpleBlockModel(ModBlocks.SILVER_ORE.get());
     }
 
-    public void createSimpleBlockModel(Block block)
-    {
+    public void createSimpleBlockModel(Block block) {
         simpleBlock(block);
         simpleBlockItem(block, models().getExistingFile(modLoc("block/"
                 + Objects.requireNonNull(block.getRegistryName()).getPath())));

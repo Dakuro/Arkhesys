@@ -27,6 +27,9 @@ public class DataGen
         if(event.includeServer())
         {
             gen.addProvider(new LootTableGen(gen));
+            BlockTagsGen blockTags = new BlockTagsGen(gen, exFileHelp);
+            gen.addProvider(blockTags);
+            gen.addProvider(new ItemTagsGen(gen, blockTags, exFileHelp));
         }
     }
 }

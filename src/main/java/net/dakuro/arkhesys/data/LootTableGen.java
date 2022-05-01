@@ -14,7 +14,7 @@ public class LootTableGen extends ModLootTableProvider
     @Override
     protected void addTables()
     {
-        lootTables.put(ModBlocks.SILVER_ORE.get(), createSilkTouchTable("silver_ore",
-                ModBlocks.SILVER_ORE.get(), ModItems.RAW_SILVER.get(), 1, 3));
+        lootTables.put(ModBlocks.SILVER_ORE.get(), createOreTable("silver_ore",
+                ModBlocks.SILVER_ORE.get(), ModItems.RAW_SILVER.get()));
     }
 }

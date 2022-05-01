@@ -95,6 +95,23 @@ public abstract class ModLootTableProvider extends LootTableProvider
         return LootTable.lootTable().withPool(builder);
     }
 
+    protected LootTable.Builder createOreTable(String name, Block block, Item lootItem)
+    {
+        LootPool.Builder builder = LootPool.lootPool()
+                .name(name)
+                .setRolls(ConstantValue.exactly(1))
+                .add(AlternativesEntry.alternatives(
+                                LootItem.lootTableItem(block)
+                                        .when(MatchTool.toolMatches(ItemPredicate.Builder.item()
+                                                .hasEnchantment(new EnchantmentPredicate(Enchantments.SILK_TOUCH, MinMaxBounds.Ints.atLeast(1))))),
+                                LootItem.lootTableItem(lootItem)
+                                        .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))
+                                        .apply(ApplyExplosionDecay.explosionDecay())
+                        )
+                );
+        return LootTable.lootTable().withPool(builder);
+    }
+
     @Override
     public void run(HashCache cache)
     {

@@ -4,4 +4,9 @@ cc70eacfbdb22012cb2b75b164c26e59aac034bb assets/arkhesys/lang/fr_fr.json
 81abd96d410972592c0ce482c831d9bbf402f3c0 assets/arkhesys/models/block/silver_ore.json
 730fbcdab84844b17a610fbc15aa431a759212b8 assets/arkhesys/models/item/raw_silver.json
 cf036776b8fedceee3139ec3d146868ceb3c0be7 assets/arkhesys/models/item/silver_ore.json
-a3a46a89995216eabbfac26fb0ec5c1a5c455aa8 data/arkhesys/loot_tables/blocks/silver_ore.json
+d4578e5d8fa4147680ae321e8b4f047d0864f70e data/arkhesys/loot_tables/blocks/silver_ore.json
+f1b639d965e1463d540a6c69d1492d9e5d199b94 data/forge/tags/blocks/ores.json
+f1b639d965e1463d540a6c69d1492d9e5d199b94 data/forge/tags/items/ores.json
+d30675efe4297f58fb6c6a5b6c54665774f882b7 data/forge/tags/items/raw_materials.json
+f1b639d965e1463d540a6c69d1492d9e5d199b94 data/minecraft/tags/blocks/mineable/pickaxe.json
+f1b639d965e1463d540a6c69d1492d9e5d199b94 data/minecraft/tags/blocks/needs_iron_tool.json

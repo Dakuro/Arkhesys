@@ -3,5 +3,13 @@
   "promos": {
     "1.18.2-latest": "0.4.2",
     "1.18.2-recommended": "0.4.2"
+  },
+  "1.18.2": {
+    "0.1.0": "Project ported to Minecraft 1.18.2",
+    "0.2.0": "Add basic classes, a block and an item",
+    "0.3.0": "Add datagen for lang, models, tags, etc",
+    "0.4.0": "Update mod structure and add update.json",
+    "0.4.1": "Update README.md",
+    "0.4.2": "Fix update.json"
   }
 }

@@ -1,6 +1,6 @@
-package net.dakuro.arkhesys.data;
+package com.github.dakuro.arkhesys.data;
 
-import net.dakuro.arkhesys.ARKHESYS;
+import com.github.dakuro.arkhesys.ARKHESYS;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

@@ -1,6 +1,6 @@
-package net.dakuro.arkhesys.world.item;
+package com.github.dakuro.arkhesys.world.item;
 
-import net.dakuro.arkhesys.ARKHESYS;
+import com.github.dakuro.arkhesys.ARKHESYS;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;

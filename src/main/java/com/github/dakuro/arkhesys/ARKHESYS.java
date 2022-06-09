@@ -1,8 +1,8 @@
-package net.dakuro.arkhesys;
+package com.github.dakuro.arkhesys;
 
+import com.github.dakuro.arkhesys.world.item.ModItems;
+import com.github.dakuro.arkhesys.world.level.block.ModBlocks;
 import com.mojang.logging.LogUtils;
-import net.dakuro.arkhesys.world.item.ModItems;
-import net.dakuro.arkhesys.world.level.block.ModBlocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

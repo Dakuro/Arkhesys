@@ -1,6 +1,6 @@
-package net.dakuro.arkhesys.world.item;
+package com.github.dakuro.arkhesys.world.item;
 
-import net.dakuro.arkhesys.world.level.block.ModBlocks;
+import com.github.dakuro.arkhesys.world.level.block.ModBlocks;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;

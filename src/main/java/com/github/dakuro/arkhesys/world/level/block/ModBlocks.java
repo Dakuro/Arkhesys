@@ -1,7 +1,7 @@
-package net.dakuro.arkhesys.world.level.block;
+package com.github.dakuro.arkhesys.world.level.block;
 
-import net.dakuro.arkhesys.ARKHESYS;
-import net.dakuro.arkhesys.world.item.ModItems;
+import com.github.dakuro.arkhesys.world.item.ModItems;
+import com.github.dakuro.arkhesys.ARKHESYS;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

@@ -1,7 +1,7 @@
-package net.dakuro.arkhesys.data;
+package com.github.dakuro.arkhesys.data;
 
-import net.dakuro.arkhesys.ARKHESYS;
-import net.dakuro.arkhesys.world.level.block.ModBlocks;
+import com.github.dakuro.arkhesys.world.level.block.ModBlocks;
+import com.github.dakuro.arkhesys.ARKHESYS;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.tags.BlockTags;

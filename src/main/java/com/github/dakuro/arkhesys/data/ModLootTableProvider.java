@@ -1,4 +1,4 @@
-package net.dakuro.arkhesys.data;
+package com.github.dakuro.arkhesys.data;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

@@ -1,7 +1,7 @@
-package net.dakuro.arkhesys.data;
+package com.github.dakuro.arkhesys.data;
 
-import net.dakuro.arkhesys.world.item.ModItems;
-import net.dakuro.arkhesys.world.level.block.ModBlocks;
+import com.github.dakuro.arkhesys.world.item.ModItems;
+import com.github.dakuro.arkhesys.world.level.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
 
 public class LootTableGen extends ModLootTableProvider {
